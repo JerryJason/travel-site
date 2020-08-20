@@ -17,7 +17,9 @@ class ClientArea {
 	}
 
 	sendRequest() {
-		Axios.post()
+		Axios.post('https://confident-gates-52bf3a.netlify.app/.netlify/functions/secret-area', {
+			password: this.field.value
+		})
 			.then((response) => {
 				this.form.remove();
 				this.contentArea.innerHTML = response.data;
