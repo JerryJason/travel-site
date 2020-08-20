@@ -1,4 +1,4 @@
-exports.handler = function(even, context, callback) {
+exports.handler = function(event, context, callback) {
 	const secretContent = `
   <h3>Welcome to the secret area.</h3>
   <p>blaaaaaaaaaaaaaa</p>
