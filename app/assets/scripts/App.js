@@ -1,3 +1,6 @@
+
+// to run this app, type "npm run dev"
+
 import '../styles/styles.css';
 import 'lazysizes';
 import MobileMenu from './modules/MobileMenu';
